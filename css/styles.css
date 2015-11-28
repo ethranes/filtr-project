@@ -1,0 +1,80 @@
+/*font-family: 'Megrim', cursive;font-family: 'Lakki Reddy', cursive; */
+
+
+
+
+
+body               {background-image:url("../images/background/bigwallpaperwider.jpg");
+	background-repeat:repeat;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	
+
+h1,h2,h3 		    {font-family:'Lakki Reddy', 'Megrim',Helvetica, Arial, sans-serif;color:#BE008D;}
+
+#wrapper			{width:900px;margin:10px auto;background-color;
+         			padding:10px 30px;
+}
+
+#top                {}
+
+#logo				{float:left;margin:50px 0;
+}
+
+#social-media		{float:right; margin:40px 0;
+}
+
+#social-media ul li {display:inline;list-style-type:none;
+}
+#social-media p     {text-align:right;
+	font-size: 10px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+	
+
+#topnav				{clear:both;
+}
+
+#topnav ul 			{padding:15px 0;margin:0;border-top:5px #F3BDD3 dotted;
+}
+
+#topnav ul li 		{display:inline;list-style-type:none;margin:0 40px 0 0;
+}
+
+#topnav a:link      {font-weight:bold;text-decoration:none;text-transform:uppercase;color:#000;}
+#topnav a:visited   {font-weight:bold;text-decoration:none;color:#000;}
+#topnav a:active 	{font-weight:bold;text-decoration:none;color:#000;}
+#topnav	a:hover     {font-weight:bold;text-decoration:none;color:#BE008D;}
+#topnav	a:focus     {font-weight:bold;text-decoration:none;color:#BE008D;}
+
+#content			{float:left;width:580px;
+}
+
+#content p			{font-size:12px;line-height:180%;font-family:'Megrim';}
+#box1				{width:270px;float:left;
+}
+
+#box2				{width:280px;float:left;
+}
+
+#rightside			{float: left;
+						width: 280px;
+						margin-left: 20px;
+}
+
+#rightside h2	    {color:#BE008D;}
+#rightside p        {font-size:12px; line-height:180%;font-family:'Megrim';}
+
+
+#footer				{clear:both;padding:10px 0;
+					border-top:5px #F3BDD3 dotted;
+}
+#footer p           {text-align:center;font-size:14px;font-weight:bold;color:#AEECFF;}
+.img-right			{float:right;
+					padding: 0 0 10px 10px;
+}
+
+ #slides {
+      display:none;
+    }
