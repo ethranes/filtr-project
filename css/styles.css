@@ -95,6 +95,7 @@ h3 {
 #footer {
     clear: both;
     padding: 10px 0;
+    margin-top: -200px;
     border-top: 5px #00bcef dotted;
 }
 #footer p {
@@ -146,4 +147,7 @@ h3 {
 }
 #susid {
     width: 220px;
+}
+#prime{
+    color: red;
 }
