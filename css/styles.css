@@ -4,16 +4,19 @@
 
 
 
-body               {background-image:url("../images/background/bigwallpaperwider.jpg");
-	background-repeat:repeat;
+body               {background-image:url("http://i.imgur.com/CmJzMib.jpg");
+	/*background-repeat:repeat;
 	margin-left: 10px;
-	margin-right: 10px;
+	margin-right: 10px;*/
 }
 	
 
-h1,h2,h3 		    {font-family:'Lakki Reddy', 'Megrim',Helvetica, Arial, sans-serif;color:#BE008D;}
+h1,h2,h3 		    {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: yellow/*#BE008D;*/
+}
 
-#wrapper			{width:900px;margin:10px auto;background-color;
+#wrapper			{width:1200px;margin:10px auto;background-color;
          			padding:10px 30px;
 }
 
@@ -22,15 +25,7 @@ h1,h2,h3 		    {font-family:'Lakki Reddy', 'Megrim',Helvetica, Arial, sans-serif
 #logo				{float:left;margin:50px 0;
 }
 
-#social-media		{float:right; margin:40px 0;
-}
 
-#social-media ul li {display:inline;list-style-type:none;
-}
-#social-media p     {text-align:right;
-	font-size: 10px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-}
 	
 
 #topnav				{clear:both;
@@ -39,19 +34,24 @@ h1,h2,h3 		    {font-family:'Lakki Reddy', 'Megrim',Helvetica, Arial, sans-serif
 #topnav ul 			{padding:15px 0;margin:0;border-top:5px #F3BDD3 dotted;
 }
 
-#topnav ul li 		{display:inline;list-style-type:none;margin:0 40px 0 0;
+#topnav ul li 		{display:inline;list-style-type:none;margin:0 40px 0 0;color:yellow;float:right;
 }
 
-#topnav a:link      {font-weight:bold;text-decoration:none;text-transform:uppercase;color:#000;}
-#topnav a:visited   {font-weight:bold;text-decoration:none;color:#000;}
-#topnav a:active 	{font-weight:bold;text-decoration:none;color:#000;}
+#topnav a:link      {font-weight:bold;text-decoration:none;text-transform:uppercase;color:yellow;}
+#topnav a:visited   {font-weight:bold;text-decoration:none;color:yellow;}
+#topnav a:active 	{font-weight:bold;text-decoration:none;color:yellow;}
 #topnav	a:hover     {font-weight:bold;text-decoration:none;color:#BE008D;}
 #topnav	a:focus     {font-weight:bold;text-decoration:none;color:#BE008D;}
 
 #content			{float:left;width:580px;
 }
 
-#content p			{font-size:12px;line-height:180%;font-family:'Megrim';}
+#content p			{
+	font-size: 12px;
+	line-height: 180%;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: yellow
+}
 #box1				{width:270px;float:left;
 }
 
@@ -64,7 +64,12 @@ h1,h2,h3 		    {font-family:'Lakki Reddy', 'Megrim',Helvetica, Arial, sans-serif
 }
 
 #rightside h2	    {color:#BE008D;}
-#rightside p        {font-size:12px; line-height:180%;font-family:'Megrim';}
+#rightside p        {
+	font-size: 12px;
+	line-height: 180%;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: yellow;
+}
 
 
 #footer				{clear:both;padding:10px 0;
@@ -78,3 +83,44 @@ h1,h2,h3 		    {font-family:'Lakki Reddy', 'Megrim',Helvetica, Arial, sans-serif
  #slides {
       display:none;
     }
+
+ #map{
+   /*width: 600px;
+   height: 400px;*/
+
+   border : 2px solid  black;
+   z-index: 3;
+ }
+
+ #maphud{
+	position: absolute;
+	margin-top:-20px;
+	margin-left:-20px;
+	/*left: 0;
+	top: 0;*/
+	z-index: 2;   /*opacity: 0.3;*/
+	width: 260;
+	height: 400;
+ }
+
+ #camera1{
+    /*width: 600px;
+    height: 400px;*/
+
+    border : 2px solid  black;
+    z-index: 3;
+  }
+
+  #camera1frame{
+ 	position: absolute;
+ 	margin-top:-20px;
+ 	margin-left:-10px;
+ 	/*left: 0;
+ 	top: 0;*/
+ 	z-index: 2;   /*opacity: 0.3;*/
+ 	/*width: 260;
+ 	height: 400;*/
+  }
+
+  #comment {bgcolor: black;
+  }
