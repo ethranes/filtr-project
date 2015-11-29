@@ -1,9 +1,3 @@
-/*font-family: 'Megrim', cursive;font-family: 'Lakki Reddy', cursive; */
-
-
-
-
-
 body               {background-image:url("http://i.imgur.com/CmJzMib.jpg");
 	/*background-repeat:repeat;
 	margin-left: 10px;
@@ -16,7 +10,7 @@ h1,h2,h3 		    {
 	color: yellow/*#BE008D;*/
 }
 
-#wrapper			{width:1200px;margin:10px auto;background-color;
+#wrapper			{width:960px;margin:10px auto;background-color;
          			padding:10px 30px;
 }
 
@@ -113,8 +107,8 @@ h1,h2,h3 		    {
 
   #camera1frame{
  	position: absolute;
- 	margin-top:-20px;
- 	margin-left:-10px;
+ 	margin-top:-15px;
+ 	margin-left:-13px;
  	/*left: 0;
  	top: 0;*/
  	z-index: 2;   /*opacity: 0.3;*/
@@ -124,3 +118,10 @@ h1,h2,h3 		    {
 
   #comment {bgcolor: black;
   }
+
+
+.slides-js-style {
+  overflow: hidden;
+  height: 300px;
+  width: 600px;
+}
