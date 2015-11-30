@@ -10,25 +10,29 @@ h3 {
 #wrapper {
     width: 960px;
     margin: 10px auto;
-    background-color;
+    background-color:black;
     padding: 10px 30px;
 }
-#top {} #logo {
+
+#logo {
     float: left;
     margin: 50px 0;
+
+	  
 }
 #topnav {
     clear: both;
-}
+	border-bottom: 5px #00bcef dotted}
 #topnav ul {
-    padding: 15px 0;
+    padding: 10px 0 0 0;
     margin: 0;
-    border-top: 5px #00bcef dotted;
+
 }
 #topnav ul li {
+	font-size:30px;
     display: inline;
     list-style-type: none;
-    margin: 0 40px 0 0;
+    margin: 40px 20px 80px 80px;
     color: yellow;
     float: right;
 }
@@ -61,7 +65,7 @@ h3 {
 #content {
     float: left;
     width: 580px;
-    background-color: black;
+    
 }
 #content p {
     font-size: 12px;
@@ -102,7 +106,7 @@ h3 {
     text-align: center;
     font-size: 14px;
     font-weight: bold;
-    color: #AEECFF;
+    color: yellow;
 }
 .img-right {
     float: right;
