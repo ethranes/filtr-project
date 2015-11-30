@@ -167,3 +167,7 @@ h3 {
     border: 2px solid black;
     z-index: 3;
 }
+
+object {
+	float-right: 200px;
+	}
